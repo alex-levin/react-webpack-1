@@ -1,0 +1,48 @@
+https://muffinman.io/blog/webpack-babel-react-revisited/
+https://medium.com/javascript-training/beginner-s-guide-to-webpack-b1f1a3638460
+
+html-webpack-plugin:
+   https://github.com/jantimon/html-webpack-plugin/blob/main/CHANGELOG.md
+   https://github.com/jantimon/html-webpack-plugin
+
+
+nvm use 6.6.0
+npm i -g webpack@1.13.2
+npm i -g webpack-dev-server@1.15.1
+
+$ webpack
+$ webpack-dev-server
+
+alex@dell-xps:~/dev/react-webpack-1$ webpack-dev-server
+[HPM] Proxy created: **  ->  http://localhost:3000
+ http://localhost:8000/webpack-dev-server/
+webpack result is served from /
+content is served from static
+404s will fallback to /index.html
+Hash: 8081b2dff7c9872de730
+Version: webpack 1.15.0
+Time: 976ms
+               Asset       Size  Chunks             Chunk Names
+       app.bundle.js    1.27 kB       0  [emitted]  app
+    vendor.bundle.js    1.33 MB       1  [emitted]  vendor
+   app.bundle.js.map  892 bytes       0  [emitted]  app
+vendor.bundle.js.map    1.53 MB       1  [emitted]  vendor
+chunk    {0} app.bundle.js, app.bundle.js.map (app) 989 bytes {1} [rendered]
+    [0] ./src/index.js 540 bytes {0} [built]
+   [14] ./src/App.js 449 bytes {0} [built]
+chunk    {1} vendor.bundle.js, vendor.bundle.js.map (vendor) 1.29 MB [rendered]
+    [0] multi vendor 40 bytes {1} [built]
+    [1] ./~/react/index.js 190 bytes {1} [built]
+    [2] ./~/process/browser.js 5.42 kB {1} [built]
+    [3] ./~/react/cjs/react.production.min.js 6.91 kB {1} [built]
+    [4] ./~/react/cjs/react.development.js 87.6 kB {1} [built]
+    [5] (webpack)/buildin/module.js 251 bytes {1} [built]
+    [6] ./~/react-dom/index.js 1.36 kB {1} [built]
+    [7] ./~/react-dom/cjs/react-dom.production.min.js 132 kB {1} [built]
+    [8] ./~/scheduler/index.js 198 bytes {1} [built]
+    [9] ./~/scheduler/cjs/scheduler.production.min.js 4.24 kB {1} [built]
+   [10] ./~/timers-browserify/main.js 2.02 kB {1} [built]
+   [11] ./~/setimmediate/setImmediate.js 6.47 kB {1} [built]
+   [12] ./~/scheduler/cjs/scheduler.development.js 17.5 kB {1} [built]
+   [13] ./~/react-dom/cjs/react-dom.development.js 1.03 MB {1} [built]
+webpack: Compiled successfully.
